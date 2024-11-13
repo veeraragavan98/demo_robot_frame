@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-07-31T15:27:04.500703" rpa="false" schemaversion="5">
+<suite id="s1" name="TC0" source="C:\Users\BVeeraragavan\PycharmProjects\Acxhange\Test case\TC0.robot">
+<test id="s1-t1" name="launch" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-31T15:27:04.800140" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com'.</msg>
+<arg>https://www.google.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-31T15:27:04.800140" elapsed="3.963899"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-07-31T15:27:08.764039" elapsed="0.063772"/>
+</kw>
+<status status="PASS" start="2024-07-31T15:27:04.799112" elapsed="4.034229"/>
+</test>
+<test id="s1-t2" name="Search" line="11">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-07-31T15:27:08.842945" level="INFO">Typing text 'Acxange india pvt ltd' into text field '//textarea[@name="q"]'.</msg>
+<arg>//textarea[@name="q"]</arg>
+<arg>Acxange india pvt ltd</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-31T15:27:08.842045" elapsed="0.388152"/>
+</kw>
+<status status="PASS" start="2024-07-31T15:27:08.840374" elapsed="0.390819"/>
+</test>
+<status status="PASS" start="2024-07-31T15:27:04.503025" elapsed="4.729675"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="TC0">TC0</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

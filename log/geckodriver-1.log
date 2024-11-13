@@ -1,0 +1,22 @@
+1722920953839	geckodriver	INFO	Listening on 127.0.0.1:58374
+1722920957059	mozrunner::runner	INFO	Running command: "C:\\Users\\BVeeraragavan\\.cache\\selenium\\firefox\\win64\\128.0.3\\firefox.exe" "--marionette" "--remote- ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\BVEERA~1\\AppData\\Local\\Temp\\rust_mozprofileaoRXeK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1722920957723	Marionette	INFO	Marionette enabled
+1722920957887	Marionette	INFO	Listening on port 58451
+WebDriver BiDi listening on ws://127.0.0.1:58375
+Read port: 58451
+1722920958063	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58375/devtools/browser/a20c8ee9-fbdf-487e-98f0-b9021e8e64fb
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ckySkFmwfmQXT3S4i881M7X0Dq040p3kAeEpVWKJmn8.js line 2 > eval line 2315 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1722920988429	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/js/rum.js?fcd=true, line 82: Script terminated by timeout at:
+U@https://pagead2.googlesyndication.com/pagead/js/rum.js?fcd=true:82:332
+yf/this.T@https://pagead2.googlesyndication.com/pagead/js/rum.js?fcd=true:80:190
+
+1722928597467	Marionette	INFO	Stopped listening on port 58451
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
